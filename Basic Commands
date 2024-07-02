@@ -1,1 +1,27 @@
-git init
+git init        // Initialinzing the folder as empty git repo
+
+git status     //  checking which files were modifed and changed and deleted this shows all the untracked files
+
+git add .     // this command is used to staging all the modified files.
+
+git commit -m "commands to commit" // this is used for making ready all the files to push into main branch
+
+git push origin main  // this is used to push all the staged files into the main remote branch
+
+git clone    // creating repo in git and cloning that repo into the destination folder in our system
+
+git pull     // if we created branches or file we can pull that from remote to our local folder
+
+git branch < branch name > // to create a brach
+
+git branch -a    // to check what are the branches are there currently which branch we working
+
+git push origin --delete < branch name >    // delete the branch form remote
+
+git branch -d < branch name >    // safe delete the brach which is merged
+
+git branch -D < branch name >     // force delte deleting the branch not merged
+
+git diff    // checking the difference between both branch
+
+git merge < branch name >    // main merging with branches
