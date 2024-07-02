@@ -24,4 +24,4 @@ git branch -D < branch name >     // force delte deleting the branch not merged
 
 git diff    // checking the difference between both branch
 
-git merge < branch name >    // main merging with branches
+git merge < branch name >    // main merging with 
