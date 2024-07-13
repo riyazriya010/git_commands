@@ -27,3 +27,7 @@ git diff    // checking the difference between both branch
 git merge < branch name >    // main merging with branches
 
 git log   // to view the commited logs
+
+git commit --amend  //  to edit the previously commited message
+
+git push --force  //  to update the edited commit message
