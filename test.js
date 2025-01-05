@@ -1,5 +1,7 @@
 function greet(name) {
-  console.log(`Hello ${name}`);
+  return `Hello ${name}`
 }
-greet('Riyas');
+
+const greeted = greet('Riyas')
+console.log(greeted)
 
